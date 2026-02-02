@@ -26,7 +26,16 @@ Cores dos textos */
 }
 
 
-body, img, h1, p, fieldset, legend, input, select, textarea, button {
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+input,
+select,
+textarea,
+button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
