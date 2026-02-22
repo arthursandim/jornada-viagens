@@ -14,8 +14,8 @@ Cores dos textos */
     --background-secondary-color: #f5f5f5;
     --background-tertiary-color: #000000;
 
-    --button-primary-color: #8F0101;
-    --button-secondary-color: #B81515;
+    --primary-color: #8F0101;
+    --secondary-color: #B81515;
 
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
@@ -43,5 +43,26 @@ button {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: var(--text-primary-color);
 }
 
+.section-title h2 {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 0;
+    text-align: center;
+}
+
+.section-title hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-title h2 {
+        font-size: 32px;
+    }
+}
