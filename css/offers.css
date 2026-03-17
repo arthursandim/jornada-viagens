@@ -1,9 +1,12 @@
+.offers {
+    margin-bottom: 88px;
+}
+
 .offers-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    padding-bottom: 88px;
 }
 
 .offers-cards .card {
